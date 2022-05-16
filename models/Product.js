@@ -38,7 +38,7 @@ Product.init(
       }
     },
     price:{
-      type:DataTypes.STRING,
+      type:DataTypes.DECIMAL,
       allowNull:false,
       validate:{
         isDecimal:true
